@@ -58,6 +58,7 @@ model.fit(
     epochs=1000,
     callbacks=[early_stopping]
 )
+```
 🛑 EarlyStopping was used to prevent overfitting by monitoring validation loss.
 
 ✅ Results
