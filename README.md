@@ -61,7 +61,7 @@ model.fit(
 ```
 🛑 EarlyStopping was used to prevent overfitting by monitoring validation loss.
 
-✅ Results
+## ✅ Results
 Achieved ~85% accuracy on both training and validation sets.
 
 Training stopped early once the model reached a stable performance (no overfitting observed).
@@ -70,14 +70,14 @@ Model evaluated with .evaluate() and weights extracted using .get_weights().
 
 .
 
-📁 Dataset Details
+## 📁 Dataset Details
 Dataset: Churn_Modelling.csv
 Source: Banking churn prediction dataset
 Shape: 10,000 rows × 14 columns
 
 Target Variable: Exited (1 = customer left, 0 = stayed)
 
-🛠️ Future Improvements
+## 🛠️ Future Improvements
 Add more evaluation metrics (confusion matrix, ROC AUC)
 
 Use GridSearchCV or RandomSearch for hyperparameter tuning
